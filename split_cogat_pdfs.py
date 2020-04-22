@@ -1,6 +1,9 @@
-# Splits a large pdf containing multple COGAT test reports
-# into individual reports and names the files with their 
-# corresponding student id (if one is found)
+"""
+Splits a large pdf containing multple COGAT test reports
+into individual reports and names the files with their 
+corresponding student id (if one is found)
+"""
+
 import PyPDF2 as pydf
 
 def PDFSplit(pdfs, output_dir, num_pages = 1):
